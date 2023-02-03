@@ -15,6 +15,7 @@ Key solution highlights:
 * boto3
 
 ## Format of controls config file
+The config file which is located at */controls/controls.csv* is a csv file with below columns. This can be updated as required. Any changes made to config file may require updates under *manage_controls()* and *update_control* functions.
 ```
 Control ARN,Control ID,Operation(1 = Enable; 0 = Disable),OU ARN,Control Name,Control Owner
 ```
